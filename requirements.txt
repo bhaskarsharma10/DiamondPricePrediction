@@ -5,3 +5,4 @@ matplotlib
 Flask
 scikit-learn
 seaborn
+-e .
