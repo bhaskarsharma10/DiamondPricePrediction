@@ -1,1 +1,8 @@
-<h1>{{final_result}}</h1>
+<html>
+  <link rel="stylesheet" type="text/css" href="static\style.css">
+
+
+  {% if final_result %}
+    <h1>The Price is: {{ final_result }}</h1>
+  {% endif %}
+</html>
