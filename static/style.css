@@ -1,5 +1,5 @@
 body {
-    background-image: url('static\background-image.jpg');
+    background-image: url('background-image.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
@@ -16,11 +16,13 @@ body {
   
   h1 {
     font-size: 36px;
-    color: #fff;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    color: #ffffff;
   }
   
   .predict-button {
-    background-color: #4CAF50;
+    background-color: #1f6955;
     color: white;
     border: none;
     padding: 15px 32px;
