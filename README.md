@@ -15,5 +15,6 @@ pip install -r requirements.txt
 
 
 Preview
+
 https://github.com/bhaskarsharma10/DiamondPricePrediction/assets/99599732/62c373f3-5d6e-4813-ba01-bb40b69cee1c
 
