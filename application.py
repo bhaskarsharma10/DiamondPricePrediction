@@ -4,15 +4,13 @@ from src.pipeline.prediction_pipeline import CustomData,PredictPipeline
 
 application=Flask(__name__)
 
-app=application
 
 
-
-@app.route('/')
+@application.route('/')
 def home_page():
     return render_template('index.html')
 
-@app.route('/predict',methods=['GET','POST'])
+@application.route('/predict',methods=['GET','POST'])
 
 def predict_datapoint():
     if request.method=='GET':
@@ -44,5 +42,5 @@ def predict_datapoint():
 
 
 if __name__=="__main__":
-    app.run(host='0.0.0.0',debug=True)
+    application.run(host='0.0.0.0',debug=True)
 
